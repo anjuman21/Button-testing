@@ -81,7 +81,9 @@
   mix-blend-mode: overlay;
 }
 
-/* Stroke 2: radial white, bright top-left, 40% opacity, Plus lighter */
+/* Stroke 2 — Radial FFFFFF, stops 80%→0%, Plus lighter blend,
+     40% layer opacity, Inside, Weight 1.
+     Gradient runs diagonally: bright at top-left corner, fading toward overall. */
 .alerts-btn .stroke-2 {
   opacity: 0.4;
   background: radial-gradient(
@@ -105,7 +107,9 @@
   mix-blend-mode: plus-lighter;
 }
 
-/* Inner shadow 1: 0 -4 14, black 25%, Overlay */
+/* Stroke 3 — Radial FFFFFF, stops 80%→0%, Plus lighter blend,
+     40% layer opacity, Inside, Weight 1.
+     Mirror of stroke 2: bright at bottom-right corner, fading toward overall. */
 .alerts-btn .inner-1 {
   position: absolute;
   inset: 0;
