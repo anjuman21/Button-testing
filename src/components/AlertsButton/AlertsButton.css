@@ -95,18 +95,6 @@
   mix-blend-mode: plus-lighter;
 }
 
-/* Stroke 3: radial white, bright bottom-right, 40% opacity, Plus lighter Blend */
-.alerts-btn .stroke-3 {
-  opacity: 0.4;
-  background: radial-gradient(
-    120% 120% at 85% 85%,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  mix-blend-mode: screen; /* fallback */
-  mix-blend-mode: plus-lighter;
-}
-
 /* Stroke 3 — Radial FFFFFF, stops 80%→0%, Plus lighter blend,
      40% layer opacity, Inside, Weight 1.
      Mirror of stroke 2: bright at bottom-right corner, fading toward overall. */
