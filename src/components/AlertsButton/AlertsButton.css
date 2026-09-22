@@ -87,7 +87,7 @@
 .alerts-btn .stroke-2 {
   opacity: 0.4;
   background: radial-gradient(
-    42% 42% at 20% 20%,
+    -42% -42% at 20% 20%,
     rgba(255, 255, 255, 0.8) 0%,
     rgba(255, 255, 255, 0) 100%
   );
