@@ -95,13 +95,13 @@
   mix-blend-mode: plus-lighter;
 }
 
-/* Stroke 2 — Radial FFFFFF, stops 80%→0%, Plus lighter blend,
+/* Stroke 3 — Radial FFFFFF, stops 80%→0%, Plus lighter blend,
      40% layer opacity, Inside, Weight 1.
      Gradient runs diagonally: bright at top-left corner, fading toward overall. */
-.alerts-btn .stroke-2 {
+.alerts-btn .stroke-3 {
   opacity: 0.4;
   background: radial-gradient(
-    120% 120% at 85% 85%,
+    50% 50% at 85% 85%,
     rgba(255, 255, 255, 0.8) 0%,
     rgba(255, 255, 255, 0) 100%
   );
