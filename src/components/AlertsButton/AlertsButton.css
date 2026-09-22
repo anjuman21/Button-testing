@@ -75,7 +75,7 @@
   mask-composite: exclude;
 }
 
-/* Stroke 1: white 30%, Overlay */
+/* Stroke 1: white 30%, Overlay blend */
 .alerts-btn .stroke-1 {
   background: rgba(255, 255, 255, 0.3);
   mix-blend-mode: overlay;
@@ -95,7 +95,7 @@
   mix-blend-mode: plus-lighter;
 }
 
-/* Stroke 3: radial white, bright bottom-right, 40% opacity, Plus lighter */
+/* Stroke 3: radial white, bright bottom-right, 40% opacity, Plus lighter Blend */
 .alerts-btn .stroke-3 {
   opacity: 0.4;
   background: radial-gradient(
